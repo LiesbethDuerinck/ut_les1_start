@@ -12,10 +12,10 @@ De functie returnt een nieuwe array die de gemeenschappelijke elementen van de 2
 ## findDuplicateValues
 Maak een functie findDuplicateValues.
 Deze heeft 1 parameter, een array van int.
-De functie returnt een nieuwe array met allen elementen die meerdere keren in de array voorkomen. 
+De functie returnt een nieuwe array met alleen elementen die meerdere keren in de array voorkomen. 
 
 ## findCommmonElements with array of Integers 
-De functie findCommmonElements moet nu werken met een array van Integer ipv int.
+De functie findCommonElements moet nu werken met een array van Integer ipv int.
 De waarde null telt niet mee als mogelijk common element. 
 Pas de code en de tests aan. 
 

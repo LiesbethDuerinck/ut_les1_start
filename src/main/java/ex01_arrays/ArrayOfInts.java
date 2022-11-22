@@ -43,7 +43,7 @@ public class ArrayOfInts {
 
     public int countMostPopularNumber(int[] arrayOfInts){
         if (arrayOfInts == null) return 0;
-        HashMap<Integer, Integer> counter = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> counter = new HashMap<>();
         for(Integer i : arrayOfInts){
            counter.put(i, counter.getOrDefault(i, 0)+1);
         }
@@ -58,4 +58,5 @@ public class ArrayOfInts {
         int result = ex1.sumOfInts(new int[]{1, 2, 3, 4});
         System.out.println(result);
     }
+
 }
